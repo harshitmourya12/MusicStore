@@ -1,0 +1,61 @@
+body{background-color: black;}	
+
+
+
+
+
+.p1{font-family: Copperplate, Papyrus, fantasy;
+    text-align: center;
+     font-size: 50px; 
+     text-decoration-line: underline;}  
+
+
+
+
+
+.fixed-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 9;
+    left: 0;
+    z-index: 1030;
+}
+.bg-white {
+    background-color: #fff!important;
+display: block;}
+
+
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    color: black;}
+
+
+#glyph1 {
+    color: black;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 20px;
+    
+}
+
+#glyph2 {
+    color: black;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+#glyph3 {
+    color: black;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 20px;}
+
+

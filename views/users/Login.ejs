@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> User Login</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    
+  
+
+<center>
+<div class="login-box"> 
+  <h2>Login</h2>
+  <form action="/Login" method="POST">
+    <div class="user-box">
+      <input type="email" name="email" required="true">
+      <label>email</label>
+    </div>
+    <div class="user-box">
+      <input type="password" name="password" required="true">
+      <label>password</label>
+    </div>
+
+
+    <div><P> <a href="/forget"> forget password</a></P></div>
+    <div class=""> <p style="color: azure;"> don't have an account?<a href="/register">CLICK HERE</a></p></div>
+    <p>are you an admin?<a href="/admin/Login">CLICK HERE</a></p>
+    
+    <a href="#">
+       <input type="submit" value="Login">
+    </a>
+  </form>
+</div>
+
+</center>
+
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+<script  src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
